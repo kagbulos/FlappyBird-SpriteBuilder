@@ -21,6 +21,7 @@
 - (void)flap
 {
     [self.physicsBody applyImpulse:ccp(0, 400.f)];
+    [self.physicsBody applyAngularImpulse:10000.f];
 }
 
 @end
