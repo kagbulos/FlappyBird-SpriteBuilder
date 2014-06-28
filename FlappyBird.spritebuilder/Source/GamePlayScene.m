@@ -18,7 +18,7 @@
     // put update code here
     timeSinceObstacle += delta;
     
-    if (timeSinceObstacle > 2.0f) {
+    if (timeSinceObstacle > 1.0f) { //was originally 2.0f
         [self addObstacle]; //after 2 seconds, add a new obstacle and then reset the timer
         timeSinceObstacle =0.0f;
     }
